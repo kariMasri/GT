@@ -1,4 +1,14 @@
-import './App.css'
+import React from 'react';
+import './App.css'; // Import any CSS styles if necessary
+
+const App: React.FC = () => {
+  return (
+    <div className="App">
+      <h1>Hello from App!</h1>
+    </div>
+  );
+}
+
 
 import { ClockIcon } from '@heroicons/react/outline'
 import { format } from 'date-fns'
